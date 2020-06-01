@@ -2,7 +2,8 @@
 @import "modules/variables";
 @import "modules/layout";
 
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
 }
@@ -74,7 +75,7 @@ footer {
 }
 
 .btn {
-  background: none;
+  background: blue;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -85,4 +86,8 @@ footer {
   border-radius: 2px;
   outline: none;
   font-size: 1em;
+}
+input[type="text"] {
+  border: 0.5px solid $brand-primary;
+  margin: 2px;
 }
